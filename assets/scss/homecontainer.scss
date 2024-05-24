@@ -1,0 +1,28 @@
+
+
+
+.homecontainer{
+    display: flex;
+    justify-content: center;
+    margin: 2px;
+
+ section{
+    display: flex;
+    justify-content: space-evenly;
+}  
+ article{
+    flex-direction: column;
+    padding: 20px;
+}
+h2{
+    text-align: center;
+}
+}
+
+.introduction{
+    text-align: center;
+    padding: 10px;
+}
+.homedivjava {
+   text-align: center;
+}
