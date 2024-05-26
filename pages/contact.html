@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <link rel="stylesheet" href="/assets/css/bases.css">
@@ -10,72 +10,81 @@
 
 <body>
     <div>
-    <nav class="main-nav">
-        <ul>
-            <li>
-                <a href="/index.html">Acceuil</a>
-            </li>
-            <li>
-                <a href="/pages/html.html">Le HTML</a>
-            </li>
-            <li>
-                <a href="/pages/css.html">Le CSS</a>
-            </li>
-            <li>
-                <a href="/pages/javascript.html">Le JavaScript</a>
-            </li>
-            <li>
-                <a href="/pages/contact.html">Nous contacter</a>
-            </li>
-        </ul>
-        <label class="switch">
-            <input id="toggle" type="checkbox">
-            <span class="slider round"></span>
-        </label>
-    </nav>
-    <header>
-        <div>
-            <img class="banner" src="/assets/images/banner.png" alt="banner">
-        </div>
-        <h1>Vous desirez plus d'information?</h1>
-        <p>Pour tout renseigenment plus poussé voici quelques liens où vous pouvez nous joindre.
-            Un correspondant vous répondra dés que possibles. N'oubliez pas que ce sont des personnes
-            dotés de sentiments à l'autre bout, nous vous prions donc de rester respectueux et cordial envers vos
-            interlocuteurs.
-        </p>
-    </header>
-    <main>
-        <section class="contactcontainer">
-            <div>Formulaire ici</div>
-            <div>
-            <p>Addresse: 178 rue du chaperon rouge</p>
-            </div>
-            <div>
-                <p>Tel: 04.42.24.42.24</p>
-            </div>
-            <div>
-                <p>Mail: adressebidon@mail.fr</p>
-            </div>
-        </section>
-    </main>
-    <footer>
-        <nav>
+        <nav class="main-nav">
             <ul>
                 <li>
-                    <a href="">cookies</a>
+                    <a href="/index.html">Acceuil</a>
                 </li>
                 <li>
-                    <a href="">legal</a>
+                    <a href="/pages/html.html">HTML</a>
                 </li>
                 <li>
-                    <a href="">website privacy notice</a>
+                    <a href="/pages/css.html">CSS</a>
+                </li>
+                <li>
+                    <a href="/pages/javascript.html">JavaScript</a>
+                </li>
+                <li>
+                    <a href="/pages/contact.html">Contact</a>
                 </li>
             </ul>
+            <div class="switch-container">
+                <label class="switch">
+                    <input id="toggle" type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+            </div>
         </nav>
-        <p>this content is available under a creative commons license.</p>
-    </footer>
-    <script src="../assets/script.js"></script>
-</div>
+        <header>
+            <div>
+                <img class="banner" src="/assets/images/banner.png" alt="banner">
+            </div>
+            <h1>Vous desirez plus d'information?</h1>
+            <p>Pour tout renseigenment plus poussé voici quelques liens où vous pouvez nous joindre.
+                Un correspondant vous répondra dés que possibles. N'oubliez pas que ce sont des personnes
+                dotés de sentiments à l'autre bout, nous vous prions donc de rester respectueux et cordial envers vos
+                interlocuteurs.
+            </p>
+        </header>
+        <main>
+            <section class="contactcontainer">
+                <div class="formcontainer">
+                    <h1>Formulaire de Contact</h1>
+                    <form id="contactForm">
+                        <label for="message">Votre Message :</label>
+                        <textarea id="message" name="message" required></textarea>
+                        <button type="submit">Envoyer</button>
+                    </form>
+                    <div class="response-message" id="responseMessage">
+                        Merci pour votre retour ! Une personne prendra contact avec vous sous peu.
+                    </div>
+                    <article>
+                        <p>Addresse: 178 rue du chaperon rouge</p>
+                        <p>Tel: 04.42.24.42.24</p>
+                        <p>Mail: adressebidon@mail.fr</p>
+                    </article>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="">cookies</a>
+                    </li>
+                    <li>
+                        <a href="">legal</a>
+                    </li>
+                    <li>
+                        <a href="">website privacy notice</a>
+                    </li>
+                </ul>
+            </nav>
+            <p>this content is available under a creative commons license.</p>
+        </footer>
+        <script src="../assets/form.js"></script>
+        <script src="../assets/script.js"></script>
+    </div>
 </body>
 
 </html>

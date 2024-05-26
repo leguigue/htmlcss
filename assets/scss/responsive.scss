@@ -1,0 +1,52 @@
+@media all and (max-width: 720px) {
+    .main-nav {
+        max-width: 100%;
+        overflow: hidden;
+    }
+
+    .homecontainer {
+        display: block;
+        flex-direction: column;
+    }
+
+    .switch {
+        display: none;
+    }
+    .night{
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+    }
+
+    footer {
+        display: block;
+        padding: 10px;
+        text-align: center;
+
+        p {
+            display: block;
+            text-align: center;
+        }
+
+        nav {
+            width: 100%;
+
+            ul {
+                flex-direction: column;
+                padding: 0;
+                margin: 0;
+            }
+
+            li {
+                margin: 5px 0;
+            }
+
+            a {
+                margin: 10px;
+            }
+        }
+    }
+    header{
+        max-width: 100%;
+    }
+}

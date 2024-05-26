@@ -1,10 +1,11 @@
-
 footer {
     background-color: gray;
     display: flex;
     justify-content: space-evenly;
-    padding: 20px;
-    bottom: 0; left: 0; right: 0;
+    padding: 10px;
+    bottom: 0;
+    left: 0;
+    right: 0;
     margin-top: 20px;
 
     nav {
@@ -29,9 +30,9 @@ footer {
             margin: 20px;
         }
     }
-}
-p{
-    display: flex;
-  align-items: center;
-}
 
+    p {
+        display: flex;
+        align-items: center;
+    }
+}
