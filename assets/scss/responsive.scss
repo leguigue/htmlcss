@@ -1,7 +1,6 @@
 @media all and (max-width: 720px) {
     .main-nav {
-        max-width: 100%;
-        overflow: hidden;
+        display: none;
     }
 
     .homecontainer {
@@ -12,7 +11,8 @@
     .switch {
         display: none;
     }
-    .night{
+
+    .night {
         max-width: 100%;
         width: 100%;
         height: auto;
@@ -46,7 +46,52 @@
             }
         }
     }
-    header{
+
+    .cssdiagram {
         max-width: 100%;
+        width: 100%;
+        height: auto;
+    }
+
+    .csseffect {
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+    }
+
+    .balisehtml {
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+    }
+
+    .codehtml {
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+    }
+
+    .htmlpres {
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+    }
+
+    .exem {
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+    }
+
+    .csslove {
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+    }
+
+    .banner {
+        max-width: 100%;
+        width: 100%;
+        height: auto;
     }
 }
